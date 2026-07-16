@@ -31,3 +31,11 @@ Modificações:
   #define TEMP_BED_PIN                        15  // Analog Input
 #endif
 ```
+
+# Motherboard
+
+![Motherboard](docs/motherboard.png)
+
+Removidos C50 e R48 da entrada do termistor da mesa (TB). Identificado curto com GND. Provável queima do pino do ADC do ATMEGA2560 - Pin 83 - PK6 (ADC14).
+
+Após remapemento do ADC, a entreda do Termistor 2 (TH2) está sendo utilizada para o monitoramento de temperatura da mesa.
