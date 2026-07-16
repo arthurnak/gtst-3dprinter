@@ -9,8 +9,8 @@ Reparos realizados na impressora 3D Creality CR-10 com motherboard queimada
 
 # Firmware
 
--PlatformIO 6.1.19
-- Marlin v2.1.2.5
+- Gerado com PlatformIO 6.1.19
+- [Marlin](https://github.com/MarlinFirmware) v2.1.2.5
 - Configuration-release-2.1.2.5 Creality CR-10 V2
 
 Modificações:
